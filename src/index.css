@@ -1,19 +1,20 @@
-/* Imagen del CV en la cabecera */
-.foto-perfil {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #b28cff;
-  display: block;
-  margin: 0 auto 20px auto;
-  box-shadow: 0 0 15px rgba(178, 140, 255, 0.3);
+.cabecera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
 }
 
-/* Opcional: centrar contenido del header */
-.cabecera {
-  text-align: center;
+.foto-perfil {
+  width: 130px;       /* Ajusta el tamaño fijo */
+  height: 130px;      /* Para que sea cuadrada */
+  object-fit: cover;  /* Recorta sin deformar */
+  border-radius: 50%; /* La hace redonda (opcional) */
+  margin-bottom: 1rem;
+  border: 3px solid #ddd;
 }
+
 
 /* === Estilo Global === */
 body {
