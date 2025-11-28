@@ -1,72 +1,30 @@
 
 ## Cómo ejecutar el proyecto
 
-1. Clonar el repositorio:
-   git clone https://github.com/tuusuario/cv-react-nombre-aprendiz
-
-2. Instalar dependencias:
+1. Instalar dependencias:
    npm install
 
-3. Ejecutar:
+2. Ejecutar:
    npm run dev
 
 # 📄 Hoja de Vida en React – Fabián Marín
 
-Proyecto desarrollado como parte de la actividad **GA1-220501096-03-AA1-EV05**:  
-**"Construcción de un CV modular en React – Componentes, anidación y control de versiones"**
+Proyecto desarrollado como parte de la actividad **GA1-220501096-03-AA1-EV06-Construcción Componentes dinámicos en React – Renderizado condicional y renderizado de listas**
 
-Este proyecto implementa una **hoja de vida modular** usando **React + Vite**.  
-Cada sección del CV está construida como un **componente independiente**, permitiendo una estructura limpia, reutilizable y fácil de mantener.
+Este proyecto implementa una **Hoja de Vida modular** construida con **React + Vite**, donde cada sección está separada en componentes individuales, facilitando la reutilización, el mantenimiento y la escalabilidad.
 
-## 🚀 Tecnologías utilizadas
+## Descripción
+CV dinámico creado con React + Vite que demuestra renderizado condicional y renderizado de listas. Componentes incluidos:
+- CabeceraCV
+- Perfil
+- Experiencia (dinámico)
+- Educacion (dinámico)
+- StackTecnologias (dinámico con estilos condicionales)
 
-- React 18
-- Vite
-- JavaScript (ES6+)
-- JSX
-- Git & GitHub
-
-## 📁 Estructura del proyecto
-
-src/
-├── App.jsx
-├── main.jsx
-├── index.css
-└── components/
-├── CabeceraCV.jsx
-├── Perfil.jsx
-├── Experiencia.jsx
-└── Educacion.jsx
-
-
-Cada archivo dentro de `components/` representa una sección independiente del CV.
-
-
-## 🧩 Descripción de los componentes
-
-### **1. CabeceraCV.jsx**
-Incluye:
-- Nombre completo  
-- Título profesional  
-- Datos de contacto  
-- Documento  
-- Fecha de nacimiento  
-
-### **2. Perfil.jsx**
-- Perfil profesional  
-- Habilidades técnicas y blandas  
-
-### **3. Experiencia.jsx**
-- 4 proyectos personales y académicos  
-- FuSnciones realizadas  
-
-### **4. Educacion.jsx**
-- Formación académica  
-- Formación complementaria  
-- Referencias personales  
-
+Este ejercicio corresponde a la actividad previa, donde se realizó la construcción de un CV modular utilizando React. En esta actividad se creó un proyecto con React + Vite, organizando la hoja de vida en varios componentes independientes (cabecera, perfil, experiencia, educación y tecnologías). Además, se aplicaron conceptos de anidación de componentes, estructuras dinámicas con .map(), organización de carpetas y uso correcto de Git y GitHub para versionar cada avance del proyecto. Este trabajo permitió afianzar la creación de interfaces basadas en componentes y el flujo básico de un proyecto moderno en React.
 
 ## 🖥 Vista previa del proyecto
 
-![Imagen del proyecto](./public/IMG/img-web.png)
+![Imagen del proyecto](./public/IMG/img-web2_v1.png)
+![Imagen del proyecto 2](./public/IMG/img-web2_v2.png)
 
