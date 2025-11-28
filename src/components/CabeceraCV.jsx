@@ -1,25 +1,10 @@
-export default function CabeceraCV() {
+export default function CabeceraCV(props) {
   return (
-    <header className="cabecera">
-
-      <img 
-        src="./IMG/fotoCV.jpg" alt="Foto de Fabián Marín" className="foto-perfil"
-      />
-
-      <h1>Fabián Marín</h1>
-      <h2>Desarrollador Web Jr. | Estudiante de ADSO</h2>
-
-      <p>
-        📍 Medellín – Calle 123 #45-67 <br />
-        📞 311 339 5127 <br />
-        📧 fabianandres.marin01@gmail.com
-      </p>
-
-      <p>
-        Documento: 1038062797 <br />
-        Fecha de nacimiento: 29 de diciembre de 2007
-      </p>
-
+    <header>
+      <img src={props.contacto.foto} alt="Foto" />
+      <h1>{props.nombre}</h1>
+      <h2>{props.cargo}</h2>
+      <p>{props.ciudad}</p>
     </header>
   );
 }
