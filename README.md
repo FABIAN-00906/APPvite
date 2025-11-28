@@ -13,18 +13,47 @@ Proyecto desarrollado como parte de la actividad **GA1-220501096-03-AA1-EV06-Con
 
 Este proyecto implementa una **Hoja de Vida modular** construida con **React + Vite**, donde cada sección está separada en componentes individuales, facilitando la reutilización, el mantenimiento y la escalabilidad.
 
-## Descripción
-CV dinámico creado con React + Vite que demuestra renderizado condicional y renderizado de listas. Componentes incluidos:
-- CabeceraCV
-- Perfil
-- Experiencia (dinámico)
-- Educacion (dinámico)
-- StackTecnologias (dinámico con estilos condicionales)
+1. Actividades asociadas
 
-Este ejercicio corresponde a la actividad previa, donde se realizó la construcción de un CV modular utilizando React. En esta actividad se creó un proyecto con React + Vite, organizando la hoja de vida en varios componentes independientes (cabecera, perfil, experiencia, educación y tecnologías). Además, se aplicaron conceptos de anidación de componentes, estructuras dinámicas con .map(), organización de carpetas y uso correcto de Git y GitHub para versionar cada avance del proyecto. Este trabajo permitió afianzar la creación de interfaces basadas en componentes y el flujo básico de un proyecto moderno en React.
+Este proyecto corresponde a las actividades:
 
-## 🖥 Vista previa del proyecto
+GA1-220501096-03-AA1-EV06 – Construcción de componentes dinámicos en React
 
-![Imagen del proyecto](./public/IMG/img-web2_v1.png)
-![Imagen del proyecto 2](./public/IMG/img-web2_v2.png)
+GA1-220501096-03-AA1-EV07 – Reutilización de componentes en React (Props y desestructuración)
 
+2. Descripción del proyecto
+
+Aplicación tipo Hoja de Vida modular, construida con React + Vite, organizada en componentes reutilizables para facilitar:
+
+✔ Reutilización
+✔ Mantenimiento
+✔ Escalabilidad
+✔ Separación lógica por secciones
+
+La versión actual del proyecto implementa conceptos como:
+
+Renderizado condicional
+
+Renderizado de listas mediante .map()
+
+Props + desestructuración
+
+Organización modular de carpetas
+
+Buenas prácticas de Git y GitHub
+
+3. Componentes incluidos
+
+CabeceraCV
+
+Perfil
+
+Experiencia (dinámico)
+
+Educación (dinámico)
+
+StackTecnologías (dinámico con estilos condicionales)
+
+4. Vista previa del proyecto
+
+![Vista previa del proyecto](/public/IMG/img-web3.png)
