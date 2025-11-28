@@ -1,10 +1,10 @@
-export default function CabeceraCV(props) {
+export default function CabeceraCV({ nombre, cargo, ciudad, contacto }) {
   return (
     <header>
-      <img src={props.contacto.foto} alt="Foto" />
-      <h1>{props.nombre}</h1>
-      <h2>{props.cargo}</h2>
-      <p>{props.ciudad}</p>
+      <img src={contacto.foto} alt="Foto" />
+      <h1>{nombre}</h1>
+      <h2>{cargo}</h2>
+      <p>{ciudad}</p>
     </header>
   );
 }
