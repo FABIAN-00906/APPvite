@@ -3,7 +3,7 @@ export default function CabeceraCV() {
     <header className="cabecera">
 
       <img 
-        src="/fotoCV.jpg" alt="Foto de Fabián Marín" className="foto-perfil"
+        src="./IMG/fotoCV.jpg" alt="Foto de Fabián Marín" className="foto-perfil"
       />
 
       <h1>Fabián Marín</h1>
